@@ -24,11 +24,12 @@ function SignUp() {
   } = useForm<customerDto>();
 
   const onSubmit = async (data: customerDto) => {
-    data.id = customers.length;
+    data.id = 0;
     data.role = "User";
-    await axios.post("/customer/signup", data);
+    console.log("Data ", data);
+    const response = await axios.post("/customer/signup", data);
     await new Promise((responce) => setTimeout(responce, 1000));
-    console.log("Form Data Submitted:", data);
+    console.log("Form Data Submitted:", response.status);
   };
 
   return (

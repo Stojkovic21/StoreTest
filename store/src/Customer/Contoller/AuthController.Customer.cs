@@ -67,7 +67,7 @@ public class AuthCustomerController : ControllerBase
                 {"prezime", kupacModel.Prezime},
                 {"role", kupacModel.Role},
                 {"brTel", kupacModel.BrTel},
-                {"refreshToken", ""},
+                {"refreshToken", kupacModel.RefreshToken},
                 {"RTTimeExpire", kupacModel.RefreshTokenTimeExpire}
             };
 
@@ -184,12 +184,12 @@ public class AuthCustomerController : ControllerBase
             new(ClaimTypes.Name,user.Email),
             new(ClaimTypes.Role,user.Role)   //Sve sto treba da bude u jwt tokenu se smesta u Claim
         };
-        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(configuration.GetValue<string>("AppSettings:Token")!));
+        var key = new SymmetricSecurityKey(Encoding.UTF8.GetBytes("arcI9KqBxtyIgei4lgC2O4RD576ym9kpKh7hspz8drcI9KqBxtyIgei4lgC2O4RD576ym9kpKh7hspz8d"));
         var creds = new SigningCredentials(key, SecurityAlgorithms.HmacSha512);
 
         var tokenDescriptor = new JwtSecurityToken(
-            issuer: configuration.GetValue<string>("AppSettings:Issuer")!,
-            audience: configuration.GetValue<string>("AppSettings:Audience")!,
+            issuer: "MojaApp",
+            audience: "MojAudionceApp",
             claims: claims,
             expires: DateTime.UtcNow.AddHours(2),
             signingCredentials: creds

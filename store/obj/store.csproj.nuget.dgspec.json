@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "f:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj": {}
+    "F:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj": {}
   },
   "projects": {
-    "f:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj": {
+    "F:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "f:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj",
+        "projectUniqueName": "F:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj",
         "projectName": "store",
-        "projectPath": "f:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj",
+        "projectPath": "F:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj",
         "packagesPath": "C:\\Users\\bakib\\.nuget\\packages\\",
-        "outputPath": "f:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\obj\\",
+        "outputPath": "F:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\bakib\\AppData\\Roaming\\NuGet\\NuGet.Config",

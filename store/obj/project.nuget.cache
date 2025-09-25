@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oNhkjmHwcKwa9w1o42cZrih2uAcbALBwHxMXzvXYYjXv/6Gp+7o3fZbV2xEHGAAtUdmS3fCN6+ELWaKUw9cetg==",
+  "dgSpecHash": "Al1r5c/h35574UegQweg+U9uK4e7iXBbqfTnQs6r9UZXF9gVstAJ9Hz4rA0M6LVNOrU4blN+/k90Z1kFnMNbYw==",
   "success": true,
-  "projectFilePath": "f:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj",
+  "projectFilePath": "F:\\elfak\\Testiranje i kvalitet softvera\\Store\\store\\store.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\bakib\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\bakib\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
